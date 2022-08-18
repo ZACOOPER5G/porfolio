@@ -45,9 +45,9 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="align-items-center">
+                <Row className="text-start">
                     <Col className="personal-info" xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio!</span>
+                        {/* <span className="tagline">Welcome to my Portfolio!</span> */}
                         <h1>{`I'm Zac.`}</h1>
                         <h2><span className="wrap">...I am a  {text}</span></h2>
                         <div>
