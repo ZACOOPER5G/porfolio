@@ -104,7 +104,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32 ease-in-out;
-  background-color: rgba(15, 15, 15, 0.6);
+  background-color: rgba(15, 15, 15, 1);
 }
 
 nav.navbar.scrolled {
@@ -328,21 +328,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 15% 0 100px 0;
-  background-image: url('./assets/img/banner.jpeg');
+  /* background-image: url('./assets/img/banner.jpeg'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
   .banner {
     padding: 265px 0 100px 0;
   }
-}
+} */
 
 @media only screen and (max-width: 400px) {
   .banner {
-    padding: 280px 0 100px 0;
+    padding: 10% 0 2% 0;
   }
 }
 
@@ -362,8 +362,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .personal-info {
+  align-items: start;
+  justify-content: start;
   padding: 20px 50px;
-  background-color: rgba(15, 15, 15, 0.6);
+  /* background-color: rgba(15, 15, 15, 0.6); */
   border-radius: 30px;
 }
 
@@ -444,7 +446,6 @@ a {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
 }
 
 .skills h2 {
