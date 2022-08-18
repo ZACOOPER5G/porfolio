@@ -196,8 +196,18 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
-.navbar-text button span {
+.navbar-text button {
   z-index: 1;
+}
+
+.navbar-text button a {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-text button a:hover {
+  color: black;
 }
 
 .navbar-text button::before {
@@ -214,6 +224,10 @@ span.navbar-text {
 
 .navbar-text button:hover {
   color: #121212;
+}
+
+.navbar-text button:active::before {
+  background: linear-gradient(90.21deg, #a9698f -5.91%, #6b5bb2 111.58%);
 }
 
 .navbar-text button:hover::before {
@@ -360,6 +374,10 @@ banner p {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .about {
@@ -618,12 +636,63 @@ banner p {
   padding: 10px 30px;
 }
 
+.project-logo {
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.project-logo a {
+  width: 42px;
+  height: 42px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.project-logo a::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50px;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.project-logo a:hover::before {
+  transform: scale(1);
+}
+
+.project-logo a img {
+  width: 40%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.project-logo a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) hue-rotate(364deg) brightness(50%)
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
 .background-image-right {
   top: 0%;
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 100%;
+  width: 50%;
   right: 0;
   z-index: -4;
 }

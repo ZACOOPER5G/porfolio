@@ -46,7 +46,7 @@ export const NavBar = () => {
                             <a href="https://www.linkedin.com/in/zac-cooper-262652158/" target="_blank"><img src={NavIcon1} alt="linkedin-logo"/></a>
                             <a href="https://github.com/ZACOOPER5G" target="_blank" ><img src={NavIcon2} alt="github-logo"/></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Let's get in touch!</span></button>
+                        <a href="mailto:zacooper5g@outlook.com"><button className="vvd"  onClick={() => console.log('connect')}>Let's get in touch!</button></a>
                     </span>
                     </Navbar.Collapse>
                 </Container>

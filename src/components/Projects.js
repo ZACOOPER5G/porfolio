@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import zacstracks from '../assets/img/zacstracks.png';
 import filmfinder from '../assets/img/film-finder.png';
-import comingsoon from '../assets/img/coming-soon.jpeg';
+import comingsoon from '../assets/img/project3.png';
 
 export const Projects = () => {
     const projects = [
@@ -12,20 +12,23 @@ export const Projects = () => {
             description: 'Built using React. I created a personal Spotify playlist creator using a Spotify API to search their vast library of music. This app also allows me to save a new playlist directly to my linked Spotify account.',
             imgUrl: zacstracks,
             urlLink: 'https://zacstracks-spotifyapp.surge.sh/',
+            github: 'https://github.com/ZACOOPER5G/portfolio-project-zacstracks',
             eventKey: 'first'
         },
         {
             title: 'Film Finder',
-            description: 'Build using vanilla Javascript. I created a random film generator, for when my partner and I can\'t decide on a movie. The database is gathered from the TMDB API and the results show only films that are rated 4 stars and above.',
+            description: 'Build using vanilla Javascript. I created a random film generator, for when my partner and I can\'t decide on a movie. The database is gathered from the TMDB API.',
             imgUrl: filmfinder,
             urlLink: '#',
+            github: 'https://github.com/ZACOOPER5G/portfolio-project-film-finder',
             eventKey: 'second'
         },
         {
-            title: 'Coming soon...',
-            description: '',
+            title: 'Photography Website',
+            description: 'Coming soon... Designing a unique photography website using GSAP, a JavaScript animation library, for a close friend and professional photographer.',
             imgUrl: comingsoon,
             urlLink: '#',
+            github: '#',
             eventKey: 'third'
         }
     ]
