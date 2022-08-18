@@ -279,7 +279,6 @@ nav.navbar .navbar-toggler-icon {
   height: 17px;
   background-image: none;
   position: relative;
-  border-bottom: 2px solid white;
   transition: all 300ms linear;
   top: -2px;
   height: 42px;
