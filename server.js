@@ -15,8 +15,8 @@ app.listen(5000, () => console.log("Server Running"));
 const contactEmail = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: "zacooper95@gmail.com",//process.env.GMAIL_EMAIL,
-        pass: "rylahpmaasldrqfa"//process.env.GMAIL_PASSWORD
+        user: process.env.GMAIL_EMAIL,
+        pass: process.env.GMAIL_PASSWORD
     },
 });
 
@@ -28,7 +28,8 @@ contactEmail.verify((error) => {
     }
 });
 
-router.post("/contact", (req, res) => {
+router.post("/contact", async (req, res) => {
+    console.log("RUNNING /contact")
     const name = req.body.firstName + req.body.lastName;
     const email = req.body.email;
     const message = req.body.message;
@@ -44,8 +45,9 @@ router.post("/contact", (req, res) => {
                <p>Company: ${company}</p>
                <p>Message: ${message}</p>`
     };
-    contactEmail.sendMail(mail, (error) => {
+    await contactEmail.sendMail(mail, (error) => {
         if (error) {
+            console.log(error)
             res.json(error);
         } else {
             res.json({ code: 200, status: "Message Sent" });
