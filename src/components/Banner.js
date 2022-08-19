@@ -52,9 +52,9 @@ export const Banner = () => {
                         <h2><span className="wrap">...I am a  {text}</span></h2>
                         <div>
                         <p className="about">I absolutely love the world of technology and I spend most of my spare time learning new technologies, building web applications, and sometimes I surf.</p>
-                        <p>I'd love to chat with you to see how we could potentially work together, so don't be afraid to reach out.</p>
+                        <p>I'd love to chat with you to see how we could potentially work together, so...</p>
                         </div>
-                        <a href="mailto:zacooper5g@outlook.com"><button onClick={() => console.log('connect')}>Let's get in touch! <ArrowRightCircle size={25} /></button></a>
+                        <a href="mailto:zacooper5g@outlook.com"><button onClick={() => console.log('connect')}>...Let's get in touch! <ArrowRightCircle size={25} /></button></a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                     <img src={Header} alt="Header image" className='header-image d-none d-md-block' href={''} />
