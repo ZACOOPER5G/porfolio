@@ -19,7 +19,7 @@ export const Projects = () => {
             title: 'Film Finder',
             description: 'Build using vanilla Javascript. I created a random film generator, for when my partner and I can\'t decide on a movie. The database is gathered from the TMDB API.',
             imgUrl: filmfinder,
-            urlLink: '#',
+            urlLink: 'https://film-finder.surge.sh/',
             github: 'https://github.com/ZACOOPER5G/portfolio-project-film-finder',
             eventKey: 'second'
         },
