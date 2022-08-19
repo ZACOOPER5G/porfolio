@@ -28,7 +28,7 @@ export const Projects = () => {
             description: 'Coming soon... Designing a unique photography website using GSAP, a JavaScript animation library, for a close friend and professional photographer.',
             imgUrl: comingsoon,
             urlLink: '#',
-            github: '#',
+            github: 'https://github.com/ZACOOPER5G/patsuraseang',
             eventKey: 'third'
         }
     ]

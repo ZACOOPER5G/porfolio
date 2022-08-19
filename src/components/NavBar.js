@@ -32,7 +32,7 @@ export const NavBar = () => {
                 <Container>
                     <Navbar.Brand className="navbar-icon" href="#home"><img src={Logo} alt="zac-cooper-logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" >
-                        <span className="navbar-toggler-icon">ZC</span>
+                        <span className="navbar-toggler-icon"></span>
                     </Navbar.Toggle>
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
