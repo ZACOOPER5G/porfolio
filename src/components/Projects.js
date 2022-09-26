@@ -9,7 +9,7 @@ export const Projects = () => {
     const projects = [
         {
             title: 'Arsenal Fan Stat Tracker',
-            description: 'Built using React using TypeScript as a dependency. As a fan of the Premier League and Arsenal Football Club, I created a stat tracker app for Arsenal fans. The idea was to showcase each of the Arsenal player\'s statistics during the season and have them visually look like trading cards. All the advanced statistics are updated throughout the season using a remote API',
+            description: 'Built using React with TypeScript as a dependency. As a fan of the Premier League and Arsenal Football Club, I created a stat tracker app for Arsenal fans. The idea was to showcase each of the Arsenal player\'s statistics during the season and have them visually look like trading cards. All the advanced statistics are updated throughout the season using an external API',
             imgUrl: arsenal,
             urlLink: 'https://arsenalstats.surge.sh/',
             github: 'https://github.com/ZACOOPER5G/arsenal-stats-app',
