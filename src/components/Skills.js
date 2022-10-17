@@ -10,6 +10,7 @@ import node from '../assets/img/node.png';
 import bootstrap from '../assets/img/bootstrap.svg';
 import git from '../assets/img/git-logo.png';
 import ts from '../assets/img/ts.png';
+import redux from '../assets/img/redux.svg';
 
 export const Skills = () => {
     const responsive = {
@@ -65,6 +66,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={node} alt='Image' />
                                 <h5>Node JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={redux} alt='Image' />
+                                <h5>Redux</h5>
                             </div>
                             <div className="item">
                                 <img src={bootstrap} alt='Image' />
