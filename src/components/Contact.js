@@ -32,7 +32,7 @@ export const Contact = () => {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8",
-            },
+             },
             body: JSON.stringify(formDetails),
         });
         setButtonText("Send Message");
@@ -57,7 +57,7 @@ export const Contact = () => {
                         <h2>Enough about me. <a href="mailto:zacooper5g@outlook.com">Let's chat</a> about how we can work together.</h2>
                         <form onSubmit={handleSubmit} >
                             <Row>
-                                <Col sm={6} className="px-1" >
+                                <Col sm={6} className="px-2" >
                                     <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
                                 </Col>
                                 <Col sm={6} className="px-2" >
