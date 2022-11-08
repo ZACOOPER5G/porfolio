@@ -823,4 +823,14 @@ footer p {
 }
 .contact form button:hover::before {
   width: 100%;
+
+}
+
+.express img {
+  filter: invert(100%);
+}
+
+.react-multi-carousel-track {
+  display: flex;
+  align-items: center;
 }
