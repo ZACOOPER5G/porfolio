@@ -13,6 +13,12 @@ export const Projects = () => {
             imgUrl: arsenal,
             urlLink: 'https://arsenalstats.surge.sh/',
             github: 'https://github.com/ZACOOPER5G/arsenal-stats-app',
+            tech: [
+                "React",
+                "TypeScript",
+                "Axios",
+                "FootAPI"
+            ],
             eventKey: 'first'
         },{
             title: 'Zac\'s tracks',
@@ -20,6 +26,11 @@ export const Projects = () => {
             imgUrl: zacstracks,
             urlLink: 'https://zacstracks-spotifyapp.surge.sh/',
             github: 'https://github.com/ZACOOPER5G/portfolio-project-zacstracks',
+            tech: [
+                "React",
+                "JavaScript",
+                "Spotify API"
+            ],
             eventKey: 'second'
         },
         {
@@ -28,6 +39,10 @@ export const Projects = () => {
             imgUrl: filmfinder,
             urlLink: 'https://film-finder.surge.sh/',
             github: 'https://github.com/ZACOOPER5G/portfolio-project-film-finder',
+            tech: [
+                "JavaScript",
+                "TMBD API"
+            ],
             eventKey: 'third'
         },
     ]
