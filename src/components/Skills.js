@@ -12,6 +12,7 @@ import git from '../assets/img/git-logo.png';
 import ts from '../assets/img/ts.png';
 import express from '../assets/img/express.svg';
 import mongo from '../assets/img/mongo.png';
+import jest from '../assets/img/jest.png';
 
 export const Skills = () => {
     const responsive = {
@@ -83,6 +84,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={git} alt='skill-logo' />
                                 <h5>Git</h5>
+                            </div>
+                            <div className="item">
+                                <img src={jest} alt='skill-logo' />
+                                <h5>Jest</h5>
                             </div>
                         </Carousel>
                     </div>
