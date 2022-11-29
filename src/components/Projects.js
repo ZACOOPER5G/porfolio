@@ -2,7 +2,7 @@ import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import zacstracks from '../assets/img/zacstracks.png';
-import filmfinder from '../assets/img/film-finder.png';
+import filmfinder from '../assets/img/film-finder-v2.png';
 import arsenal from '../assets/img/arsenal.png';
 
 export const Projects = () => {
@@ -20,7 +20,23 @@ export const Projects = () => {
                 "FootAPI"
             ],
             eventKey: 'first'
-        },{
+        },
+        {
+            title: 'Film Finder',
+            description: 'Built using React, TypeScript, Bootstrap, and Material UI. I created a random film generator, for when my partner and I can\'t decide on a movie. The database is gathered from the TMDB API and is the second iteration of the film finder app, which originally used vanilla JavaScript and had limited filtering options. You can  see the original version for comparison here: film-finder.surge.sh .',
+            imgUrl: filmfinder,
+            urlLink: 'https://film-finder-v2.surge.sh/',
+            github: 'https://github.com/ZACOOPER5G/film-finder-v2',
+            tech: [
+                "React",
+                "TypeScript",
+                "Bootstrap",
+                "Material UI",
+                "TMBD API"
+            ],
+            eventKey: 'second'
+        },
+        {
             title: 'Zac\'s tracks',
             description: 'Built using React. I created a personal Spotify playlist creator using a Spotify API to search their vast library of music. This app also allows me to save a new playlist directly to my linked Spotify account.',
             imgUrl: zacstracks,
@@ -30,18 +46,6 @@ export const Projects = () => {
                 "React",
                 "JavaScript",
                 "Spotify API"
-            ],
-            eventKey: 'second'
-        },
-        {
-            title: 'Film Finder',
-            description: 'Build using vanilla Javascript. I created a random film generator, for when my partner and I can\'t decide on a movie. The database is gathered from the TMDB API.',
-            imgUrl: filmfinder,
-            urlLink: 'https://film-finder.surge.sh/',
-            github: 'https://github.com/ZACOOPER5G/portfolio-project-film-finder',
-            tech: [
-                "JavaScript",
-                "TMBD API"
             ],
             eventKey: 'third'
         },
