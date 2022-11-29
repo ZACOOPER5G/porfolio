@@ -57,7 +57,7 @@ export const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
-                        <p>Here are some of my most recent projects:</p>
+                        <p>Below are just some of my most recent projects. For more projects and examples, feel free to visit my <a href="https://github.com/ZACOOPER5G/" >GitHub!</a></p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first" >
                             <Nav variant="pills" >
                                 <Nav.Item>
