@@ -13,6 +13,7 @@ import ts from '../assets/img/ts.png';
 import express from '../assets/img/express.svg';
 import mongo from '../assets/img/mongo.png';
 import jest from '../assets/img/jest.png';
+import next from '../assets/img/next.svg';
 
 export const Skills = () => {
     const responsive = {
@@ -64,6 +65,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={css} alt='skill-logo' />
                                 <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={next} alt='skill-logo'  style={{filter: "invert(100%)"}} />
+                                <h5>Next.js</h5>
                             </div>
                             <div className="item">
                                 <img src={node} alt='skill-logo' />
